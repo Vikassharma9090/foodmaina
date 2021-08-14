@@ -14,7 +14,8 @@ const Menu = () => {
               </div>
             </div>
             <div className="col-6 p-25">
-              <h3> Menus </h3>
+              <h3> Menus
+               </h3>
               <h1> Welcome To MAESTRO PIZZINI </h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
@@ -31,7 +32,7 @@ const Menu = () => {
           </div>
         </div>
             </div>
-        </>
+        </> 
     )
 }
 

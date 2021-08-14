@@ -101,9 +101,16 @@ body{
 .row{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .col-6{
     width: 50%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width: 33.3333333%;
 }
 .about h3{
     color: rgba(37, 37, 37, 0.2);
@@ -160,4 +167,123 @@ body{
 }
 .shop_btn{
     margin-top: 35px;
+}
+.clients{
+    background:url(./img/bg.jpg);
+    width: 100%;
+    padding: 80px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+.client{
+    text-align:center;
+}
+.clients h1{
+    font-style: 45px;
+
+}
+.clients p{
+    font-style: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.prices{
+  width: 100%;
+  padding: 80px 0;
+  color: rgb(155, 125, 125);
+  
+}
+.price{
+    padding:20px;
+    text-align: center;
+}
+.price_img{
+    width: 100%;
+}
+.price_img img{
+    width: 250px;
+}
+.price_heading{
+    margin-top: 20px;
+    font-size: 25px;
+    color: brown;
+
+}
+.price_txt{
+    margin-top: 18px;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+}
+.price_rs{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #000;
+}
+
+@media(max-width:700px){
+    .navbar_text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width:100%;
+        margin: 0 auto;
+
+    }
+    .logo{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .container{
+        width: 100%;
+        padding: 0 30px;
+
+    }
+    .banner_text{
+        width: auto;
+    }
+    .banner_text h3{
+        font-size: 25px !important;
+    }
+    .banner_text h1{
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+    .banner_text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    }
+    .navbar_ul{
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar_ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 0 10px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .col-3,.col-4,.col-6{
+        width: 100%;
+    }
+    .client{
+        margin: 20px 0;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+    .shop h1{
+        font-size: 25px;
+    }
+    .menu h1{
+        font-size:25px;
+    }
 }
